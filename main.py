@@ -2,7 +2,7 @@
 import telebot
 
 from telebot import types
-bot = telebot.TeleBot('5062120763:AAEdynX2N7Rh2w1712-3AXIm0ONOxaWX_Hc')
+bot = telebot.TeleBot('Token')
 @bot.message_handler(commands=['start'])
 def welcome(message):
     sti = open('static/welcome.webp', 'rb')
